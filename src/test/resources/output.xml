@@ -1,0 +1,36 @@
+<Report>
+	<inputFile>input.txt</inputFile>
+	<references>
+		<references>
+			<numReference>1460100040</numReference>
+			<size>27</size>
+			<price>45.12</price>
+			<type>R</type>
+		</references>
+		<references>
+			<numReference>1460900848</numReference>
+			<size>145</size>
+			<price>12.0</price>
+			<type>G</type>
+		</references>
+		<references>
+			<numReference>1462100044</numReference>
+			<size>19</size>
+			<price>5.56</price>
+			<type>G</type>
+		</references>
+		<references>
+			<numReference>1462100403</numReference>
+			<size>97</size>
+			<price>105.23</price>
+			<type>B</type>
+		</references>
+	</references>
+	<errors>
+		<errors>
+			<line>5</line>
+			<message>Incorrect value for color</message>
+			<value>1462100403;A;100.1;9</value>
+		</errors>
+	</errors>
+</Report>

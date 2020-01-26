@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 import fr.batch.data.Error;
 import fr.batch.data.InputParameters;
 import fr.batch.data.Reference;
-import fr.batch.data.ReferenceException;
 import fr.batch.data.Report;
+import fr.batch.data.exception.ReferenceException;
 import lombok.extern.slf4j.Slf4j;
 
 /**

@@ -3,6 +3,7 @@
  */
 package fr.batch.data;
 
+import fr.batch.data.exception.ReferenceException;
 import lombok.Data;
 
 /**

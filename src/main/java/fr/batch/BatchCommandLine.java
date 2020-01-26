@@ -35,11 +35,12 @@ public class BatchCommandLine implements CommandLineRunner {
 	 * @see org.springframework.boot.CommandLineRunner#run(java.lang.String[])
 	 */
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args) {
 		log.info("Démarrage du batch");
 
 		log.info("Validation des paramètres d'entrées");
-		InputParameters inputParameters = validationService.validate(args);
+		InputParameters inputParameters = null;
+		inputParameters = validationService.validate(args);
 
 		log.info("Lecture du fichier d'entrées");
 		Report traitement = txtFileReaderService.read(inputParameters);

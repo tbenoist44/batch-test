@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.batch.data;
+package fr.batch.data.exception;
 
 /**
  * @author Thierry
@@ -10,7 +10,7 @@ package fr.batch.data;
 public class ReferenceException extends Exception {
 
 	/**
-	 * serialVersionUID
+	 * serialVersionUID.
 	 */
 	private static final long serialVersionUID = -5157268313874430344L;
 
